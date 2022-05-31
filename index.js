@@ -15,7 +15,7 @@ const juegos =[
 ];
 
 app.get('/',(req, res )=> {
-    res.send('microservicios activo');
+    res.send('datos sobre videojuegos activo');
 })
 
 app.get('/api/juegos/:id',(req ,res) =>{
